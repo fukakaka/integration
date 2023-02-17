@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "concurrently \"nodemon packages/back/index.js\" \"vue-cli-service serve\"",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "commit":"git add -A & git cz"
   },
   "dependencies": {
     "core-js": "^3.8.3",
